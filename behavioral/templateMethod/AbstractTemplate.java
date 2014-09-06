@@ -12,7 +12,7 @@ package behavioral.templateMethod;
  */
 public abstract class AbstractTemplate {
     
-    public void processTemplate() {
+    public final void processTemplate() {
         doMandatoryStep();
         doAbstractStep();
         doStubStep();
