@@ -14,8 +14,8 @@ public class Widget {
     
     private boolean activity;
     
-    IState onState;
-    IState offState;
+    private IState onState;
+    private IState offState;
     
     private IState state;
 
@@ -53,6 +53,14 @@ public class Widget {
         w.pressOn();
         w.pressOff();
         
+    }
+
+    public IState getOnState() {
+        return onState;
+    }
+
+    public IState getOffState() {
+        return offState;
     }
     
     

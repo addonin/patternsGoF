@@ -28,7 +28,7 @@ public class ActiveState implements IState {
     @Override
     public void stop() {        
         System.out.println("Shutting down...");
-        widget.setState(widget.offState);
+        widget.setState(widget.getOffState());
         widget.setActivity(false);
         widget.getActivity();
         System.out.println("");

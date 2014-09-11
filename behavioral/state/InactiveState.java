@@ -21,7 +21,7 @@ public class InactiveState implements IState {
     @Override
     public void start() {        
         System.out.println("Starting...");
-        widget.setState(widget.onState);
+        widget.setState(widget.getOnState());
         widget.setActivity(true);
         widget.getActivity();
         System.out.println("");
