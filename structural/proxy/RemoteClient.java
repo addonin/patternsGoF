@@ -1,3 +1,5 @@
+package structural.proxy;
+
 import java.rmi.Naming;
 
 /*
